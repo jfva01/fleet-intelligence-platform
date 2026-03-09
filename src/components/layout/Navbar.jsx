@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import Container from "../ui/Container"
-import Logo from "../../assets/images/logo-vital-latam.png"
+import Logo from "../../../public/images/logo-vital-latam.png"
 
 function Navbar() {
   return (
