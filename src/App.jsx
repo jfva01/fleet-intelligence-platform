@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/layout/Navbar'
 import Footer from './components/layout/Footer'
 import Home from './pages/Home'
-import Faq from './pages/Faq'
+import Faq from './pages/FAQ'
 import Terms from './pages/Terms'
 import "leaflet/dist/leaflet.css"
 
