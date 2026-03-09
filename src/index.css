@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
+
+.trusted-container:hover .animate-scroll {
+  animation-play-state: paused;
+}
+
+/* Hacer que el efecto glow "respire" */
+
+@keyframes glowFloat {
+  0% {
+    transform: translateY(0px) scale(1);
+  }
+
+  50% {
+    transform: translateY(-20px) scale(1.05);
+  }
+
+  100% {
+    transform: translateY(0px) scale(1);
+  }
+}
+
+.glow-animate {
+  animation: glowFloat 12s ease-in-out infinite;
+}
+
+/* Líneas animadas para rutas logísticas */
+@keyframes pathMove {
+  0% {
+    stroke-dashoffset: 200;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.route-line {
+  stroke-dasharray: 6;
+  animation: pathMove 3s linear infinite;
+}
