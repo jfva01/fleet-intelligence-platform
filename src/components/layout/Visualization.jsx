@@ -1,5 +1,5 @@
 import Container from "../ui/Container"
-import TrackingInterface from "../../assets/images/interfaz-de-rastreo-.png"
+import TrackingInterface from "../../assets/images/interfaz-de-rastreo.png"
 
 export default function Visualization() {
   return (
