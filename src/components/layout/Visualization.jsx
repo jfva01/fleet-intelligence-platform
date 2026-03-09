@@ -1,4 +1,5 @@
 import Container from "../ui/Container"
+import TrackingInterface from "../../assets/images/interfaz-de-rastreo-.png"
 
 export default function Visualization() {
   return (
@@ -24,7 +25,7 @@ export default function Visualization() {
                 </div>
                 <div className="rounded-2xl overflow-hidden border border-slate-700 shadow-2xl">
                     <img
-                        src="../src/assets/images/interfaz-de-rastreo-.png"
+                        src={TrackingInterface}
                         alt="Fleet monitoring dashboard"
                         className="w-full h-auto"
                     />

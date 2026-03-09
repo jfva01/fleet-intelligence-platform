@@ -23,7 +23,7 @@ function Footer() {
                         </h4>
                         <ul className="space-y-3 text-sm">
                         <li><Link to="/" className="hover:text-white">Inicio</Link></li>
-                        <li><Link to="/faq" className="hover:text-white">FAQ</Link></li>
+                        <li><Link to="/FAQ" className="hover:text-white">FAQ</Link></li>
                         <li><Link to="/terms" className="hover:text-white">Términos</Link></li>
                         </ul>
                     </div>
