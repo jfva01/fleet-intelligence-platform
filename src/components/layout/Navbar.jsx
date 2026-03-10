@@ -10,7 +10,8 @@ function Navbar() {
           <Link to="/" className="text-xl font-bold text-blue-700">
             <img src="/images/logo-vital-latam.png" 
               alt="Logo VitalLatam" 
-              className="w-13 h-12 mr-2 inline-block" />
+              className="w-13 h-12 mr-2 inline-block" 
+            />
           </Link>
 
           <nav className="hidden md:flex items-center gap-8 text-gray-700 font-medium">
