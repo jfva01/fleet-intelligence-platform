@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 import Container from "../ui/Container"
-import Logo from "../../../public/images/logo-vital-latam.png"
 
 function Navbar() {
   return (
@@ -9,7 +8,9 @@ function Navbar() {
         <div className="flex items-center justify-between py-4">
           
           <Link to="/" className="text-xl font-bold text-blue-700">
-            <img src={Logo} alt="Logo VitalLatam" className="w-13 h-12 mr-2 inline-block" />
+            <img src="/images/logo-vital-latam.png" 
+              alt="Logo VitalLatam" 
+              className="w-13 h-12 mr-2 inline-block" />
           </Link>
 
           <nav className="hidden md:flex items-center gap-8 text-gray-700 font-medium">
