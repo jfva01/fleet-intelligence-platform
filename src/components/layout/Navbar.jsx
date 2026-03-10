@@ -8,9 +8,10 @@ function Navbar() {
         <div className="flex items-center justify-between py-4">
           
           <Link to="/" className="text-xl font-bold text-blue-700">
-            <img src="/images/logo-vital-latam.png" 
+            <img src="/images/logo-vital-latam.webp" 
               alt="Logo VitalLatam" 
               className="w-13 h-12 mr-2 inline-block" 
+              loading="lazy"
             />
           </Link>
 
