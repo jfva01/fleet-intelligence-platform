@@ -17,8 +17,8 @@ Proyecto web desarrollado utilizando **HTML5, CSS3 y JavaScript**, con enfoque e
 ## 📷 Vista previa
 
 <p align="center">
-  <img src="src/assets/images/preview1.png" width="800"/>
-  <img src="src/assets/images/preview2.png" width="800"/>
+  <img src="src/assets/images/preview-1.png" width="800"/>
+  <img src="src/assets/images/preview-2.png" width="800"/>
 </p>
 
 ---
