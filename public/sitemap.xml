@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+        <url>
+            <loc>https://fleet-intelligence-platform.vercel.app//</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+        
+        <url>
+            <loc>https://fleet-intelligence-platform.vercel.app//dashboard</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.8</priority>
+        </url>
+        
+        <url>
+            <loc>https://fleet-intelligence-platform.vercel.app//vehicles</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.8</priority>
+        </url>
+        
+        <url>
+            <loc>https://fleet-intelligence-platform.vercel.app//reports</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.7</priority>
+        </url>
+        
+        <url>
+            <loc>https://fleet-intelligence-platform.vercel.app//FAQ</loc>
+            <changefreq>monthly</changefreq>
+            <priority>1</priority>
+        </url>
+        
+        <url>
+            <loc>https://fleet-intelligence-platform.vercel.app//Terms</loc>
+            <changefreq>monthly</changefreq>
+            <priority>1</priority>
+        </url>
+        
+</urlset>

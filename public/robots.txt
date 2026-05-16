@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fleet-intelligence-platform.vercel.app/sitemap.xml

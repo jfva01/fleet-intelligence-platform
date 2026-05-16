@@ -1,5 +1,10 @@
 import { useState } from "react"
 import Container from "../components/ui/Container"
+import { Helmet } from "react-helmet-async"
+import { routesSEO } from "../seo/config/routesSEO"
+import { generateSEO } from "../seo/generators/seo"
+
+const seo = generateSEO(routesSEO.faq)
 
 const faqs = [
   {
