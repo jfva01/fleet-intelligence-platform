@@ -1,8 +1,11 @@
-import { Link } from "lucide-react";
-import { SITE_URL } from "../constants/site";
+import { SITE_URL } from "../../constants/site.js";
 
+// Function to generate SEO configuration based on provided parameters
 export function generateSEO ({ title, description, path ="", image }) {
-    const url = `${SITE_URL}${path}`;
+    // Normalize the path to ensure the homepage does not have a trailing slash
+    const normalizedPath = path === "/" ? "" : path; 
+    const url = `${SITE_URL}${normalizedPath}`;
+    const defaultImage = `${SITE_URL}/images/og-image.webp`;
 
     return{
         title,
@@ -11,14 +14,14 @@ export function generateSEO ({ title, description, path ="", image }) {
             // Open Graph tags
             { property: "og:title", content: title },
             { property: "og:description", content: description },
-            { property: "og:image", content: `${SITE_URL}${image}` },
+            { property: "og:image", content: image || defaultImage },
             { property: "og:url", content: url },
             { property: "og:type", content: "website" },
             // Twitter Card tags
             { name: "twitter:card", content: "summary_large_image" },
             { name: "twitter:title", content: title },
             { name: "twitter:description", content: description },
-            { name: "twitter:image", content: `${SITE_URL}${image}` },
+            { name: "twitter:image", content: image || defaultImage },
         ],
         link: [
             { rel: "canonical", href: url },

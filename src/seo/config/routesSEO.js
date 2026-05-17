@@ -6,24 +6,21 @@ export const routesSEO = {
         description: "Una plataforma integral para la gestión y optimización de flotas.",
         path: "/",
         priority: 1.0,
-        changefreq: "weekly",
-        icon: "/images/vital-latam-icon.png",
+        changefreq: "weekly"
     },
     dashboard:{
         title: "Dashboard - Plataforma de inteligencia de flotas",
         description: "Panel de control y visualización de métricas de flotas.",
         path: "/dashboard",
         priority: 0.8,
-        changefreq: "daily",
-        icon: "/images/vital-latam-icon.png",
+        changefreq: "daily"
     },
     vehicles: {
         title: "Vehículos - Plataforma de inteligencia de flotas",
         description: "Gestión de vehículos en la plataforma.",
         path: "/vehicles",
         priority: 0.8,
-        changefreq: "daily",
-        icon: "/images/vital-latam-icon.png",
+        changefreq: "daily"
     },
     reports: {
         title: "Reportes - Plataforma de inteligencia de flotas",
@@ -31,23 +28,20 @@ export const routesSEO = {
         "Análisis y reportes avanzados de operación.",
         path: "/reports",
         priority: 0.7,
-        changefreq: "weekly",
-        icon: "/images/vital-latam-icon.png",
+        changefreq: "weekly"
     },
     faq: {
         title: "Preguntas Frecuentes - Plataforma de inteligencia de flotas",
         description: "Encuentra respuestas a las preguntas más comunes sobre nuestra plataforma.", 
         path: "/FAQ",
         priority: 1.0,
-        changefreq: "monthly",
-        icon: "/images/vital-latam-icon.png",
+        changefreq: "monthly"
     },
     terms: {
         title: "Términos y Condiciones - Plataforma de inteligencia de flotas",
         description: "Lee nuestros términos y condiciones de uso.", 
         path: "/Terms",
         priority: 0.5,
-        changefreq: "monthly",
-        icon: "/images/vital-latam-icon.png",
+        changefreq: "monthly"
     }
 }

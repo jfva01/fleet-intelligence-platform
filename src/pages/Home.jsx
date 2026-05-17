@@ -16,9 +16,8 @@ function Home() {
     return (
         <>
             {/* SEO configuration using react-helmet-async */}
-            <Helmet>
+            <Helmet prioritizeSeoTags>
                 <title>{seo.title}</title>
-                <link rel="icon" type="image/svg+xml" href={routesSEO.home.icon} />
                 {/* Render meta tags based on the generated SEO configuration */}
                 { seo.meta.map((tag, index) => 
                     // Check if the tag has a 'name' property to determine if it's a standard meta tag or an Open Graph tag
