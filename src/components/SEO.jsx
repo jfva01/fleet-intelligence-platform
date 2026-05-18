@@ -5,6 +5,7 @@ import { organizationSchema } from "../seo/structured-data/organization";
 
 export default function SEO({ 
     seoConfig,
+    structuredData = [],
 }) { 
     const seo = generateSEO(seoConfig);
     
@@ -39,9 +40,15 @@ export default function SEO({
             ))}
 
             // Include structured data for the organization using JSON-LD
-            <script type="application/ld+json">
-                {JSON.stringify(organizationSchema)}
-            </script>
+            {structuredData.map((schema, index) => (
+                <script
+                    key={index}
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                    __html: JSON.stringify(schema),
+                    }}
+                />
+            ))}
         </Helmet>
     );
 }
