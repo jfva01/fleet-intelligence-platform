@@ -1,4 +1,4 @@
-import { SITE_URL } from "../../constants/site";
+import { SITE_URL } from "../../constants/site.js";
 
 export const organizationSchema = {
     "@context": "https://schema.org",
