@@ -1,5 +1,8 @@
 import Container from "../ui/Container"
 import Button from "../ui/Button"
+
+import "leaflet/dist/leaflet.css"
+
 // Lazy load the FleetMap component to improve initial load performance
 import { lazy, Suspense } from "react";
 

@@ -52,7 +52,7 @@ function Footer() {
                     </div>
                 </div>
                 {/* Línea inferior */}
-                <div className="border-t border-slate-800 py-6 text-center text-sm text-slate-500">
+                <div className="border-t border-slate-800 py-6 text-center text-sm text-slate-300">
                     © {new Date().getFullYear()} VitalLatam. Todos los derechos reservados.
                 </div>
             </Container>
