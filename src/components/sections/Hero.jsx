@@ -1,13 +1,16 @@
 import Container from "../ui/Container"
 import Button from "../ui/Button"
-import FleetMap from "../maps/FleetMap"
+// Lazy load the FleetMap component to improve initial load performance
+import { lazy, Suspense } from "react";
+
+const FleetMap = lazy(() => import("../maps/FleetMap"));
 
 export default function Hero() {
   return (
     <section id="Hero" className="relative py-6 bg-gradient-to-r from-slate-900 to-slate-700 text-white overflow-hidden">
         <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.04)_1px,transparent_1px)] bg-[size:40px_40px]" />
-        <div className="pointer-events-none absolute -top-40 -left-40 w-[500px] h-[500px] bg-blue-500/20 rounded-full blur-3xl glow-animate"></div>
-        <div className="pointer-events-none absolute top-40 right-0 w-[400px] h-[400px] bg-emerald-400/20 rounded-full blur-3xl glow-animate"></div>
+        <div className="pointer-events-none absolute -top-40 -left-40 w-[500px] h-[500px] bg-blue-500/20 rounded-full blur-2xl"></div>
+        <div className="pointer-events-none absolute top-40 right-0 w-[400px] h-[400px] bg-emerald-400/20 rounded-full blur-2xl"></div>
         <Container className="relative z-10">
             <div className="min-h-[85vh] grid md:grid-cols-2 items-center gap-12">
                 {/* TEXTO */}
@@ -48,9 +51,9 @@ export default function Hero() {
                 </div>
                 {/* Mockup visual */}
                 <div className="hidden md:flex justify-center">
-                    <div className="bg-slate-900/70 backdrop-blur-md p-6 rounded-2xl shadow-2xl w-[640px] border border-white/10">
-                    <FleetMap />
-                    </div>
+                    <Suspense fallback={<div className="bg-slate-900/90 p-6 rounded-2xl shadow-2xl w-[640px] min-h-[400px] border border-white/10"></div>}>
+                        <FleetMap />
+                    </Suspense>
                 </div>
             </div>
         </Container>
