@@ -9,6 +9,7 @@ import { lazy, Suspense } from "react";
 const Home = lazy(() => import("./pages/Home"));
 const FAQ = lazy(() => import("./pages/FAQ"));
 const Terms = lazy(() => import("./pages/Terms"));
+const NotFound = lazy(() => import("./pages/NotFound"));
 
 function App() {
   return (
