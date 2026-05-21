@@ -17,7 +17,7 @@ function Navbar() {
 
           <nav className="hidden md:flex items-center gap-8 text-gray-700 font-medium">
             <Link to="/">Inicio</Link>
-            <Link to="/FAQ">FAQ</Link>
+            <Link to="/faq">FAQ</Link>
             <Link to="/terms">Términos</Link>
           </nav>
 
