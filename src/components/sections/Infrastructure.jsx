@@ -24,7 +24,7 @@ function Infrastructure() {
 
           <div className="grid md:grid-cols-3 gap-8">
 
-            <div className="p-8 rounded-2xl border border-gray-300 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+            <div className="p-8 rounded-2xl border border-gray-500 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
               <div className="w-12 h-12 rounded-xl bg-emerald-100 flex items-center justify-center mb-4">
                   <SatelliteDish className="w-6 h-6 text-emerald-600"/>
               </div>
@@ -40,7 +40,7 @@ function Infrastructure() {
               </p>
             </div>
 
-            <div className="p-8 rounded-2xl border border-gray-300 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+            <div className="p-8 rounded-2xl border border-gray-500 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
               <div className="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center mb-4">
                   <Earth className="w-6 h-6 text-blue-600"/>
               </div>
@@ -56,7 +56,7 @@ function Infrastructure() {
               </p>
             </div>
 
-            <div className="p-8 rounded-2xl border border-gray-300 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+            <div className="p-8 rounded-2xl border border-gray-500 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
               <div className="w-12 h-12 rounded-xl bg-slate-200 flex items-center justify-center mb-4">
                   <ClockCheck className="w-6 h-6 text-slate-600"/>
               </div>

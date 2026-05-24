@@ -8,7 +8,7 @@ import inexpress from "../../assets/logos/inexpress-logo.webp"
 
 export default function TrustedBy() {
   return (
-    <section className="py-16 bg-white border-y border-gray-100">
+    <section className="py-16 bg-white border-y border-gray-100 dark:bg-gray-100 dark:border-slate-600 transition-colors duration-300">
         <div className="max-w-6xl mx-auto px-6">
             <div className="relative w-full overflow-hidden tryusted-container">
                 <div className="flex gap-24 animate-scroll whitespace-nowrap">

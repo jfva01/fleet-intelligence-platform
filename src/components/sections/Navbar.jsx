@@ -6,12 +6,12 @@ function Navbar() {
   return (
     <header className="
         border-b
-        border-slate-200
-        dark:border-slate-600
         bg-white
-        dark:bg-slate-700
+        border-slate-400
         text-slate-800
-        dark:text-white
+        dark:bg-slate-800
+        dark:border-slate-600
+        dark:text-gray-400
         transition-colors
         duration-300
       ">
@@ -32,14 +32,18 @@ function Navbar() {
               items-center
               gap-8
               font-medium
-              text-slate-700
-              dark:text-slate-200
-              transition-colors
-              duration-300
+              text-slate-500
+              dark:text-gray-400
             ">
-            <Link to="/">Inicio</Link>
-            <Link to="/faq">FAQ</Link>
-            <Link to="/terms">Términos</Link>
+            <Link to="/" className="hover:text-slate-700 dark:hover:text-slate-300 transition-colors duration-300">
+              Inicio
+            </Link>
+            <Link to="/faq" className="hover:text-slate-700 dark:hover:text-slate-300 transition-colors duration-300">
+              FAQ
+            </Link>
+            <Link to="/terms" className="hover:text-slate-700 dark:hover:text-slate-300 transition-colors duration-300">
+              Términos
+            </Link>
             <ThemeToggle />
           </nav>
           <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition">
