@@ -143,7 +143,6 @@ Este proyecto fue desarrollado para profundizar conocimientos en:
 
 - Migración completa a TypeScript
 - Migración futura a Next.js
-- Integración con backend .NET 8 API
 - Analytics avanzado con GA4
 - E2E Testing con Playwright
 - Unit Testing con Vitest/Jest
