@@ -1,6 +1,8 @@
-## 🌐 Web Project – Sitio Corporativo
+## 🌐 Web Project – 🚛 Fleet Intelligence Platform – React SEO & Performance Optimized SPA
 
-Proyecto web desarrollado utilizando **HTML5, CSS3 y JavaScript**, con enfoque en diseño responsivo y experiencia de usuario.
+Aplicación web tipo SaaS desarrollada con **React + Vite**, enfocada en **SEO técnico moderno, Web Performance Optimization (WPO)** y arquitectura frontend escalable.
+
+El proyecto simula una plataforma inteligente de monitoreo GPS y gestión de flotas empresariales, implementando buenas prácticas modernas de frontend engineering, accesibilidad y optimización de Core Web Vitals.
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
@@ -27,61 +29,124 @@ Proyecto web desarrollado utilizando **HTML5, CSS3 y JavaScript**, con enfoque e
 
 - React
 - Vite
-- JavaScript (ES6+)
+- JavaScript ES6+
 - Tailwind CSS
-- CSS Animations 
+- React Router DOM
+- Zustand
+- React Helmet Async
+- Lucide React
+- Leaflet Maps
+- Vercel
 
 ---
 
 ## 📂 Estructura del proyecto
 ```
 /public
-   /images
-   /logos
+  /images
+    robots.txt
+    sitemap.xml
+/scripts
+  generate-sitemap.js
 /src
-   /assets
-   /components
-      /layout
-      /sections
-      /ui
-   /pages
-   App.jsx
-   main.jsx
+  /components
+    /layout
+    /sections
+    /ui
+  /hooks
+  /pages
+  /seo
+    /config
+    /generators
+    /structured-data
+  /store
+  /constants
+App.jsx
+main.jsx
 ```
 ---
 
-## 🎯 Características
+## 🎯 Características Principales
 
-- Diseño moderno tipo SaaS landing page
+### ⚡ SEO Optimization
+
+- Gestión dinámica de metadatos
+- URL canónicas
+- Open Graph y Twitter Cards
+- Datos estructurados (JSON-LD)
+- Esquema de preguntas frecuentes
+- Esquema de organización
+- Esquema de aplicación de software
+- Generación dinámica de mapas del sitio
+- Configuración de robots.txt
+- Estructura HTML semántica
+- Arquitectura SEO optimizada para SPA
+
+### 🚀 Web Performance Optimization (WPO)
+
+- Carga diferida con React.lazy + Suspense
+- División de código basada en rutas
+- Optimización de Core Web Vitals
+- Estrategias de reducción de CLS
+- Optimización de la entrega de imágenes (WebP)
+- Optimización de la ruta de renderizado crítica
+- Arquitectura de componentes ligera
+- Compilaciones de producción optimizadas con Vite
+
+### 🎨 UI / UX
+
+- Página de inicio SaaS responsive
+- Modo claro/oscuro con estado
+- Estado de tema persistente con almacenamiento local
+- Transiciones de interfaz fluidas
 - Arquitectura de componentes reutilizables
-- Animaciones suaves con CSS
-- Scroll infinito para logos de empresas
-- Gradientes y efectos visuales modernos
-- Deploy continuo con Vercel
+- Sistema de diseño moderno basado en Tailwind
+- Mejoras de accesibilidad (orientadas a WCAG)
 
 ---
 
-## ⚡ Performance Optimization
+## 📊 Lighthouse Results
 
-- Lazy loading de imágenes para mejorar el tiempo de carga
-- Uso de formatos optimizados (WebP) para reducir peso de recursos
-- Organización de assets para optimizar el build en Vite
-- Reducción de layout shift mediante tamaños definidos en imágenes
+- Performance	99
+- Accessibility	94
+- Best Practices	100
+- SEO	100
+
+---
+
+## 🌐 Deployment
+
+El proyecto está desplegado en:
+
+- Vercel
+- Configuración SPA rewrites para React Router
+- Deploy continuo conectado a GitHub
 
 ---
 
 ## 🧠 Objetivo del proyecto
 
-Este proyecto fue desarrollado como práctica de desarrollo frontend moderno, aplicando arquitectura basada en componentes, buenas prácticas de UI y optimización de rendimiento para aplicaciones web.
+Este proyecto fue desarrollado para profundizar conocimientos en:
+
+- SEO técnico aplicado a SPAs React
+- Web Performance Optimization
+- Arquitectura frontend moderna
+- Accesibilidad web
+- Render optimization
+- Lazy loading & code splitting
+- State management con Zustand
+- Optimización de Core Web Vitals
 
 ---
 
 ## 📌 Mejoras futuras
 
-- Integración con API REST desarrollada en .NET
-- Implementación de autenticación de usuarios
-- Dashboard interactivo con datos en tiempo real
-- Migración parcial a TypeScript
+- Migración completa a TypeScript
+- Migración futura a Next.js
+- Integración con backend .NET 8 API
+- Analytics avanzado con GA4
+- E2E Testing con Playwright
+- Unit Testing con Vitest/Jest
 
 ---
 
